@@ -29,11 +29,13 @@
   color: white;
 }
 .text-element {
+  font-family: "Roboto", serif;
+  line-height: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  transform: translateY(-3rem);
+  line-height: 4rem;
 }
 .text-element h2 {
   color: white;
