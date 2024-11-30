@@ -1,9 +1,9 @@
 import React from 'react';
 import About from '../components/About';
-
+import '../Stylesheets/infoPage.css'
 const InfoPage = () => {
   return (
-    <div>
+    <div className='infopage'>
       <About />
       {/* Add additional sections for more information */}
     </div>

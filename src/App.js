@@ -1,18 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import InfoPage from './pages/InfoPage';
-
+import Navbar from './components/navbar';
 function App() {
   return (
-    <Router>
+  <BrowserRouter>
+    <Navbar/>
       <Routes>
-        <Route path="/" element={<HomePage />} 
-        />
-           <Route path="/info-page" element={<InfoPage />} 
-        />
+        <Route index element={<HomePage/>}/>
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/info-page" element={<InfoPage />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 

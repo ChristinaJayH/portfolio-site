@@ -2,10 +2,10 @@ import React from 'react';
 import HeroSection from '../components/HeroSection';
 import Services from '../components/Services';
 import ContactForm from '../components/ContactForm';
-
+import '../Stylesheets/homepage.css'
 const HomePage = () => {
   return (
-    <div>
+    <div className='homePageContainer'>
       <HeroSection />
       <Services />
       <ContactForm />
