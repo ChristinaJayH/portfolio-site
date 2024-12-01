@@ -41,7 +41,6 @@
   transition: 0.5s;
   letter-spacing: 0.15rem;
 }
-
 .formHandle .inputContainer {
   display: flex;
   align-items: center;
@@ -71,6 +70,7 @@ textarea:focus {
   border-radius: 0.5rem;
   border: solid 0.15rem white;
 }
+
 button {
   width: 57rem;
   border-radius: 0rem;

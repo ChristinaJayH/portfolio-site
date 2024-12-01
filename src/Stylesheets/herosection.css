@@ -1,13 +1,12 @@
 .herosection {
   overflow-x: hidden;
-
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  background-image: url("../images/background-image.jpg");
+  background-image: url("../images/input-background.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -20,9 +19,9 @@
   line-height: 4rem;
   background: linear-gradient(
     to bottom,
-    #18181825,
-    #050505dc,
-    #0a0a0ad6,
+    #05050500,
+    #05050577,
+    #0a0a0a94,
     #070707
   );
   height: 100vh;
@@ -61,7 +60,7 @@
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-image: url("../images/background-image.jpg");
+    background-image: url("../images/../images/input-background.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -74,7 +73,7 @@
     line-height: 5rem;
     background: linear-gradient(
       to bottom,
-      #18181825,
+      #05050500,
       #050505dc,
       #0a0a0ad6,
       #070707
@@ -114,7 +113,7 @@
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-image: url("../images/background-image.jpg");
+    background-image: url("../images/../images/input-background.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -127,7 +126,7 @@
     line-height: 4rem;
     background: linear-gradient(
       to bottom,
-      #18181825,
+      #05050500,
       #050505dc,
       #0a0a0ad6,
       #070707
@@ -166,7 +165,7 @@
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-image: url("../images/background-image.jpg");
+    background-image: url("../images/input-background.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -180,7 +179,7 @@
     line-height: 3.5rem;
     background: linear-gradient(
       to bottom,
-      #18181825,
+      #05050500,
       #050505dc,
       #0a0a0ad6,
       #070707

@@ -6,36 +6,33 @@
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  background-image: url("../images/background-image.jpg");
+  background-image: url("../images/computer-code-background.jpg");
   background-size: cover;
   background-position: center;
 }
-.item_Containerr {
+.item_Container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   transition: 0.45s;
-  line-height: 4rem;
+  line-height: 5rem;
   background: linear-gradient(
     to bottom,
-    #18181825,
-    #050505dc,
-    #0a0a0ad6,
+    #0505058c,
+    #05050577,
+    #0a0a0a94,
     #070707
   );
   height: 100vh;
   width: 100%;
-  color: white;
 }
 .text-element {
-  font-family: "Roboto", serif;
-  line-height: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  line-height: 4rem;
+  transform: translateY(-3rem);
 }
 .text-element h2 {
   color: white;
@@ -43,6 +40,7 @@
   font-size: 3.25rem;
   letter-spacing: 0.2rem;
   font-weight: 550;
+  transition: 0.35s;
 }
 .text-element p {
   transform: translateY(-3rem);
@@ -51,4 +49,7 @@
   font-weight: 450;
   font-size: 0.95rem;
   letter-spacing: 0.1rem;
+  text-align: center;
+  line-height: 2rem;
+  transition: 0.35s;
 }

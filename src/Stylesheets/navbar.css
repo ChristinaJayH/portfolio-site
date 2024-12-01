@@ -50,7 +50,6 @@
 }
 .nav-link.active {
   color: white;
-  font-size: 1.05rem;
 }
 @media (max-width: 1536px) {
   .navbar {
@@ -182,11 +181,17 @@
     position: absolute;
     left: 10%;
   }
+  .nav-link.active {
+    color: black;
+    background: #00000014;
+  }
   .nav-link {
     color: white;
+    font-size: 1.25rem;
     font-family: "Roboto", serif;
     list-style: none;
     text-decoration: none;
+    padding: 1rem;
   }
   .navbar_Links {
     display: flex;
@@ -213,17 +218,18 @@
   }
   .navbar_Links ul.open {
     display: flex;
-    transform: translateY(2.5rem);
+    transform: translateY(4rem);
     opacity: 100;
+    font-size: 1.25rem;
   }
   .navbar_Links li a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     letter-spacing: 0.15rem;
     color: black;
     transition: 0.5s;
     list-style: none;
-    border-radius: 0.75rem;
+    border-radius: 0rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,6 +237,13 @@
   .navbar_Links li a:hover {
     color: black;
     cursor: pointer;
-    font-size: 1.6rem;
+    font-size: 1.25rem;
+    background: #0000000a;
+  }
+  .exit {
+    color: white;
+  }
+  .hamburger {
+    color: red;
   }
 }
