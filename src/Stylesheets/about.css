@@ -36,7 +36,7 @@
 }
 .text-element h2 {
   color: white;
-  font-family: "Roboto", serif;
+  font-family: "Jost", sans-serif;
   font-size: 3.25rem;
   letter-spacing: 0.2rem;
   font-weight: 550;
@@ -45,7 +45,7 @@
 .text-element p {
   transform: translateY(-3rem);
   color: #ffffffff;
-  font-family: "Roboto", serif;
+  font-family: "Jost", sans-serif;
   font-weight: 450;
   font-size: 0.95rem;
   letter-spacing: 0.1rem;

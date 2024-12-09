@@ -9,7 +9,7 @@
 }
 .contactContainer h1 {
   color: white;
-  font-family: "Roboto", serif;
+  font-family: "Jost", sans-serif;
   font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 0.45rem;
@@ -36,7 +36,7 @@
   align-items: center;
   justify-content: center;
   color: #ffffffff;
-  font-family: "Roboto", serif;
+  font-family: "Jost", sans-serif;
   font-size: 1.1rem;
   transition: 0.5s;
   letter-spacing: 0.15rem;
@@ -58,7 +58,7 @@ textarea {
   align-items: center;
   justify-content: center;
   color: #ffffffff;
-  font-family: "Roboto", serif;
+  font-family: "Jost", sans-serif;
   font-size: 1.1rem;
   letter-spacing: 0.15rem;
 }
@@ -94,7 +94,7 @@ button:hover {
 @media (max-width: 1536px) {
   .contactContainer h1 {
     color: white;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
     font-size: 2.25rem;
     transform: translateY(5rem);
     text-transform: uppercase;
@@ -207,7 +207,7 @@ button:hover {
     flex-direction: column;
     background: transparent;
     padding: 2rem;
-    width: 60rem;
+    width: 40rem;
     height: 40rem;
     border-radius: 0.75rem;
     gap: 1rem;
@@ -244,7 +244,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     color: #ffffffff;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
     font-size: 0.6rem;
     letter-spacing: 0.15rem;
   }
@@ -263,7 +263,7 @@ button:hover {
     background: transparent;
     height: 3rem;
     color: white;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
     color: #595959ff;
     font-size: 0.6rem;
     letter-spacing: 0.15rem;
@@ -278,7 +278,7 @@ button:hover {
   }
   .contactContainer h1 {
     color: white;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
     font-size: 1.25rem;
     transform: translateY(5rem);
     text-transform: uppercase;
@@ -342,7 +342,8 @@ button:hover {
     align-items: center;
     justify-content: center;
     color: #ffffffff;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     font-size: 0.6rem;
     letter-spacing: 0.15rem;
   }
@@ -361,7 +362,8 @@ button:hover {
     background: transparent;
     height: 3rem;
     color: white;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     color: #595959ff;
     font-size: 0.6rem;
     letter-spacing: 0.15rem;
@@ -376,7 +378,8 @@ button:hover {
   }
   .contactContainer h1 {
     color: white;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     font-size: 1.25rem;
     transform: translateY(5rem);
     text-transform: uppercase;
@@ -394,7 +397,8 @@ button:hover {
     align-items: center;
     justify-content: center;
     color: #ffffffff;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     font-size: 0.6rem;
     transition: 0.5s;
     letter-spacing: 0.15rem;

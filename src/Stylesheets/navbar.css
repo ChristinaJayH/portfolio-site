@@ -14,19 +14,19 @@
   display: none;
 }
 .navbar.scrolled {
-  background-color: black; /* Turns black on scroll */
+  background-color: #080808ff; /* Turns black on scroll */
 }
 .navbar .title_Area {
   color: white;
   text-transform: uppercase;
-  font-family: "Roboto", serif;
+  font-family: "Jost", sans-serif;
   font-weight: 500;
   letter-spacing: 0.25rem;
   font-size: 1.25rem;
 }
 .nav-link {
   color: white;
-  font-family: "Roboto", serif;
+  font-family: "Jost", sans-serif;
   list-style: none;
 }
 .navbar_Links ul {
@@ -42,6 +42,7 @@
   letter-spacing: 0.15rem;
   color: #3d3d3d;
   transition: 0.5s;
+  text-transform: uppercase;
 }
 .navbar_Links li a:hover {
   color: white;
@@ -67,14 +68,16 @@
   .navbar .title_Area {
     color: white;
     text-transform: uppercase;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     font-weight: 500;
     letter-spacing: 0.25rem;
     font-size: 1.25rem;
   }
   .nav-link {
     color: white;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     list-style: none;
   }
   .navbar_Links ul {
@@ -113,14 +116,16 @@
   .navbar .title_Area {
     color: white;
     text-transform: uppercase;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     font-weight: 500;
     letter-spacing: 0.25rem;
     font-size: 0.65rem;
   }
   .nav-link {
     color: white;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     list-style: none;
   }
   .navbar_Links ul {
@@ -182,13 +187,14 @@
     left: 10%;
   }
   .nav-link.active {
-    color: black;
+    color: white;
     background: #00000014;
   }
   .nav-link {
     color: white;
     font-size: 1.25rem;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     list-style: none;
     text-decoration: none;
     padding: 1rem;
@@ -209,7 +215,7 @@
     width: 100%;
     height: 12rem;
     margin-bottom: 0.25rem;
-    background: white;
+    background: #000000ff;
     transform: translateY(-9rem);
     gap: 3rem;
     padding: 2rem;
@@ -226,7 +232,7 @@
     text-decoration: none;
     font-size: 1.25rem;
     letter-spacing: 0.15rem;
-    color: black;
+    color: white;
     transition: 0.5s;
     list-style: none;
     border-radius: 0rem;
@@ -235,10 +241,10 @@
     justify-content: center;
   }
   .navbar_Links li a:hover {
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 1.25rem;
-    background: #0000000a;
+    background: #ffffff0a;
   }
   .exit {
     color: white;
