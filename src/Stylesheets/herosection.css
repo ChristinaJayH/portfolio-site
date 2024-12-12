@@ -39,10 +39,10 @@
 }
 .item_Container p {
   transform: translateY(-3rem);
-  color: #ffffffff;
+  color: #ffffff62;
   font-family: "Jost", sans-serif;
-  font-weight: 450;
-  font-size: 0.95rem;
+  font-weight: 400;
+  font-size: 1.25rem;
   letter-spacing: 0.1rem;
 }
 .text_container {

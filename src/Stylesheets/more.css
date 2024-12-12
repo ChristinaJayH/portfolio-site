@@ -41,7 +41,7 @@
   background: white;
   color: black;
   width: 12rem;
-  border-radius: 5rem;
+  border-radius: 0rem;
   font-family: "Jost", serif;
   cursor: pointer;
 }
@@ -50,6 +50,6 @@
   background: #1c1d1fff;
   color: white;
   width: 12rem;
-  border-radius: 5rem;
+  border-radius: 0rem;
   font-family: "Jost", serif;
 }

@@ -9,7 +9,7 @@ const Services = () => {
     <div className='servicesection'>
       <div className='text_area'>
       <h2>Our Services</h2>
-      <ul>
+      <ul> 
         <li className='card'>
           <BiSupport className='icons'/>
           <h1>Support</h1>
