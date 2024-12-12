@@ -42,7 +42,6 @@
   letter-spacing: 0.15rem;
   color: #3d3d3d;
   transition: 0.5s;
-  text-transform: uppercase;
 }
 .navbar_Links li a:hover {
   color: white;

@@ -60,7 +60,7 @@
   background: #111111dc;
   padding: 1.25rem;
   border-radius: 0.1rem;
-  transition: 0.5s;
+  transition: 0.3s;
   width: 22rem;
   height: 22rem;
 }
@@ -72,6 +72,7 @@
   background: #e8e8e8;
 }
 .icons {
+  transition: 0.3s;
   font-size: 4rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
@@ -155,6 +156,7 @@
     font-size: 4rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    transition: 0.3s;
   }
 }
 
@@ -236,6 +238,7 @@
     font-size: 5rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    transition: 0.3s;
   }
 }
 @media (max-width: 950px) {
@@ -317,6 +320,7 @@
   .icons {
     font-size: 5rem;
     padding-bottom: 2rem;
+    transition: 0.3s;
     padding-top: 2rem;
   }
 }
