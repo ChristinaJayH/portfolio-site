@@ -19,6 +19,9 @@
   width: 100%;
 }
 .infoarea {
+  position: absolute;
+  left: 15rem;
+  top: 8rem;
   text-align: left;
   display: flex;
   align-items: start;
@@ -31,13 +34,24 @@
   font-size: 2.5rem;
   color: white;
   font-family: "Jost", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  font-weight: 550;
 }
 
 .infoarea ul h2 {
   color: white;
   font-family: "Jost", serif;
+  font-weight: 600;
+  letter-spacing: 0.075rem;
 }
+.listArea ul h2:hover {
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
 .listArea {
+  margin-left: -2.5rem;
   flex-direction: column;
   display: flex;
   align-items: start;
@@ -49,4 +63,6 @@
 .listArea ul p {
   color: white;
   font-family: "Jost", serif;
+  font-weight: 350;
+  letter-spacing: 0.1rem;
 }

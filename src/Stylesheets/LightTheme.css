@@ -1,0 +1,94 @@
+.jobContainer {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  transition: 0.5s;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.TitleContainer {
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.TitleContainer h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: black;
+  font-family: "Jost", serif;
+  text-transform: uppercase;
+  font-weight: 550;
+  letter-spacing: 0.15rem;
+}
+.TitleContainer h2 {
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.55;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  text-transform: normal;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+.textContentContainer {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+.image {
+  width: 45rem;
+  height: 45rem;
+  background: transparent;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image img {
+  transform: scale(1);
+  width: 35rem;
+  objext-fit: cover;
+  height: 35rem;
+}
+.image img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.textContent {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  width: 70rem;
+}
+.textRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.textContent h1 {
+  font-family: "Jost", serif;
+  text-transform: normal;
+  font-weight: 450;
+  font-size: 1.85rem;
+}
+.textContent p {
+  font-family: "Poppins", sans-serif;
+  text-transform: normal;
+  font-weight: 550;
+  font-size: 1rem;
+  line-height: 2.75rem;
+  letter-spacing: 0.065rem;
+}
+.textRow {
+  gap: 1.5rem;
+}
+.textContent {
+  gap: 5rem;
+}

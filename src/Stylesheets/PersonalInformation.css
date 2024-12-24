@@ -1,0 +1,46 @@
+.personal-information {
+  height: 100vh;
+  width: 100%;
+  background-color: #070707;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.titleArea {
+  text-align: center;
+  line-height: 2rem;
+}
+.titleArea h3 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 1.65rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.titleArea h1 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  text-transform: normal;
+  font-weight: 600;
+  margin-top: -1rem;
+}
+.titleArea p {
+  margin-top: -0.35rem;
+  color: #787878;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.75rem;
+}
+.personalContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  flex-direction: row;
+}

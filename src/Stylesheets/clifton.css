@@ -1,0 +1,38 @@
+.personalContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #070707;
+}
+.content-element h1 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 2.65rem;
+  letter-spacing: 0.15rem;
+}
+.content-element h2 {
+  margin-top: -1.5rem;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 350;
+  font-size: 2.25rem;
+  letter-spacing: 0.08rem;
+}
+.content-element p {
+  margin-top: -1.6 5rem;
+  font-family: "Poppins", sans-serif;
+  color: #787878;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+.icon {
+  color: white;
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #0c0d0e, #191919);
+  width: 35rem;
+  height: 35rem;
+}

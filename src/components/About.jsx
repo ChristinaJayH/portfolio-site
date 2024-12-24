@@ -5,7 +5,7 @@ const About = () => {
     <div className='aboutsection'>
       <div className='item_Container'> 
          <div className='text-element'>
-         <h2>About Us</h2>
+         <h2>About Me</h2>
          <p>With years of experience in cyber security, we specialize in delivering expert solutions and guidance to <br></br>meet the needs of businesses and organizations.</p>
          </div>
        </div>

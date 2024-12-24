@@ -33,8 +33,8 @@ const Navbar = () => {
       <div className="navbar_Links">
         <ul className={menuOpen ? "open" : ""}>
           <li><a><NavLink to='/home' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>Home</NavLink></a></li>
-          <li><a><NavLink to='/info-page' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>InfoPage</NavLink></a></li>
-          <li><a><NavLink to='/support' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>Support</NavLink></a></li>
+          <li><a><NavLink to='/info-page' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>About</NavLink></a></li>
+          <li><a><NavLink to='/services' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>Services</NavLink></a></li>
         </ul>
       </div>
     </div>
