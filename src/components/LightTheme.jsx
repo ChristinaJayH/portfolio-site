@@ -1,5 +1,4 @@
 import '../Stylesheets/LightTheme.css'
-import image from '../images/print-press-image.jpg'
 const LightTheme = () => {
   return (
     <div className='jobContainer'>
