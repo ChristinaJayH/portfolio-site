@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #070707ff;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: row;
+}
+.textContaienr {
+  padding: 3rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+  position: absolute;
+  left: 58rem;
+  gap: 3rem;
+}
+.textContaienr h1 {
+  color: white;
+  font-family: "Jost", serif;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  font-weight: 550;
+  letter-spacing: 0.1rem;
+  text-align: left;
+}
+.textContaienr p {
+  color: white;
+  font-family: "Jost", serif;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 3rem;
+  margin-top: -1rem;
+}
+.textContaienr button {
+  border: none;
+  font-size: 1.25rem;
+  letter-spacing: 0.15rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  background: #ffffff;
+  color: black;
+  width: 16rem;
+  border-radius: 0rem;
+  font-family: "Jost", serif;
+  cursor: pointer;
+}
+.textContaienr button:hover {
+  background: #1c2020;
+  color: white;
+}
+.icon-image {
+  position: absolute;
+  font-size: 36rem;
+  left: 13rem;
+  transform: rotate(355deg);
+  color: #ffffff;
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2rem); /* Adjust the height of the float */
+  }
+}
