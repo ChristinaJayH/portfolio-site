@@ -8,30 +8,31 @@ const LightTheme = () => {
         <h2>Breaking into Cybersecurity doesn’t have to be overwhelming. With our Cybersecurity Job Search Strategy, you’ll gain the tools, knowledge, and confidence to land the perfect entry-level role. This service includes:</h2>
       </div>
       <div className='textContentContainer'>
-        <div className='image'><img src={image} alt='@'/></div>
-        
         <div className='textContent'>
           <div className='textRow'>
-            <div className='textContainerContent'>
+            <div className='textContainerContent first'>
               <h1>Resume & LinkedIn Optimization:</h1>
-              <p>Tailor your resume and online presence carefully to effectively highlight valuable transferable skills, such as problem-solving and analytical abilities, alongside your Cybersecurity certifications, which showcase your expertise and dedication to the field.</p>
+              <p>Highlight problem-solving, analytical skills, and Cybersecurity certifications on your resume and online profiles.</p>
             </div>
-            <div className='textContainerContent'>
+            <div className='textContainerContent second'>
             <h1>Job Board Navigation:</h1>
-            <p>Provide detailed guidance on where to find Cybersecurity roles, including specialized niche job boards that focus exclusively on Cybersecurity positions and company career pages that often feature opportunities tailored to professionals in the field.</p>
+            <p>Look for Cybersecurity roles on specialized job boards dedicated to the field, which often feature tailored opportunities across various expertise levels. Additionally, check company career pages regularly, as they frequently post positions designed specifically for Cybersecurity professionals, including roles like SOC Analyst and IT Security Specialist.</p>
             </div>
           </div>
           <div className='textRow'>
-            <div className='textContainerContent'>
+            <div className='textContainerContent third'>
             <h1>Networking Tips:</h1>
-            <p>Leverage LinkedIn, industry-specific meetups, and professional organizations to strategically build valuable connections within the field and uncover hidden opportunities that may not be publicly advertised.</p>
+            <p>Use LinkedIn, meetups, and professional organizations to build a strong network in Cybersecurity. These platforms provide valuable insights, help you stay updated on trends, and uncover hidden opportunities not publicly advertised, giving you access to exclusive roles and projects.</p>
             </div>
-            <div className='textContainerContent'>
+            <div className='textContainerContent forth'>
             <h1>Role Matching:</h1>
-            <p>Gain detailed insight into roles such as SOC Analyst, Threat Intelligence Analyst, and IT Security Specialist, which are well-suited to align with your current qualifications and areas of expertise.</p>
+            <p>Explore roles like SOC Analyst, Threat Intelligence Analyst, and IT Security Specialist that match your qualifications and expertise.</p>
             </div>
           </div>
         </div>
+      </div>
+      <div className='linkcontainer'>
+        <h2>Click here for more!</h2>
       </div>
     </div>
   )

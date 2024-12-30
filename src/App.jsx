@@ -4,6 +4,7 @@ import ServicesPage from './pages/ServicesPage';
 import HomePage from './pages/HomePage';
 import InfoPage from './pages/InfoPage';
 import Navbar from './components/navbar';
+import Footer from './components/Footer';
 function App() {
   return (
   <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/info-page" element={<InfoPage />} />
         <Route path='/services' element={<ServicesPage/>}/>
       </Routes>
+    <Footer/>
     </BrowserRouter>
   );
 }
