@@ -1,0 +1,174 @@
+.jobContainer {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+.TitleContainer {
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.TitleContainer h1 {
+  font-size: 2.25rem;
+  color: black;
+  font-family: "Jost", serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+}
+.TitleContainer h2 {
+  font-size: 1.15rem;
+  font-weight: 450;
+  line-height: 1.55;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  text-transform: normal;
+  letter-spacing: 0.05rem;
+}
+.textContentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+.image {
+  width: 40rem;
+  height: 40rem;
+  background: transparent;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: transparent;
+  padding: 1rem;
+  width: 90%;
+}
+.textRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.textContent h1 {
+  font-family: "Jost", serif;
+  text-transform: normal;
+  font-weight: 500;
+  font-size: 1.85rem;
+}
+.textContent p {
+  color: black;
+  margin-top: -1rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: normal;
+  font-weight: 450;
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.065rem;
+}
+.textRow {
+  gap: 0.75rem;
+}
+.textContent {
+  gap: 0.75rem;
+}
+.textContainerContent {
+  background: #e2e2e2;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: 10rem;
+}
+.textRow .first {
+  color: white;
+  width: 40rem;
+  height: 15rem;
+  background: #121314;
+  border-radius: 0.1rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.textRow .first p {
+  color: white;
+}
+.textRow .forth p {
+  color: white;
+}
+.textRow .second {
+  color: black;
+  width: 65rem;
+  height: 15rem;
+  background: #c8c8c8;
+  border-radius: 0.1rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.textRow .third {
+  background: #f6f6f6;
+  border-radius: 0.1rem;
+  color: black;
+  width: 60rem;
+  height: 15rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.textRow .forth {
+  background: #303032;
+  border-radius: 0.1rem;
+  color: white;
+  width: 45rem;
+  height: 15rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.textRow .first:hover {
+  cursor: pointer;
+}
+.textRow .second:hover {
+  cursor: pointer;
+}
+.textRow .third:hover {
+  cursor: pointer;
+}
+.textRow .forth:hover {
+  cursor: pointer;
+}
+.linkcontainer h2 {
+  font-family: "Poppins", serif;
+  text-transform: normal;
+  font-weight: 400;
+  font-size: 1.15rem;
+  letter-spacing: 0.025rem;
+  color: black;
+  margin-top: -1rem;
+}
+.linkcontainer h2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

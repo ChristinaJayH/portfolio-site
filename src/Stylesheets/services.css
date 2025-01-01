@@ -1,6 +1,4 @@
 .servicesection {
-  overflow-x: hidden;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,13 +15,14 @@
   justify-content: center;
   flex-direction: column;
   color: white;
-  background: linear-gradient(to bottom, #070707, #141414d0, #080808ff);
+  background: linear-gradient(to bottom, #070707, #14141448, #080808ff);
   width: 100%;
   height: 100vh;
 }
 .text_area h2 {
   color: white;
-  font-family: "Roboto", serif;
+  font-family: "Jost", sans-serif;
+
   font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 0.45rem;
@@ -33,7 +32,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6rem;
+  gap: 2rem;
+  transition: 0.4s;
   list-style: none;
 }
 .text_area ul li {
@@ -57,20 +57,22 @@
   letter-spacing: 0.2rem;
 }
 .card {
-  background: #1c1c1c;
+  background: #111111dc;
   padding: 1.25rem;
   border-radius: 0.1rem;
-  transition: 0.5s;
-  width: 18rem;
-  height: 18rem;
+  transition: 0.3s;
+  width: 22rem;
+  height: 22rem;
 }
 .card:hover {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.223);
   transform: scale(1.1);
   cursor: pointer;
   color: black;
   background: #e8e8e8;
 }
 .icons {
+  transition: 0.3s;
   font-size: 4rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
@@ -102,7 +104,8 @@
   }
   .text_area h2 {
     color: white;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     font-size: 1.55rem;
     text-transform: uppercase;
     letter-spacing: 0.45rem;
@@ -136,7 +139,7 @@
     letter-spacing: 0.2rem;
   }
   .card {
-    background: #1c1c1c;
+    background: #111111dc;
     padding: 1.25rem;
     border-radius: 0.1rem;
     transition: 0.5s;
@@ -153,6 +156,7 @@
     font-size: 4rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    transition: 0.3s;
   }
 }
 
@@ -181,7 +185,8 @@
   }
   .text_area h2 {
     color: white;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.45rem;
@@ -192,7 +197,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
     list-style: none;
   }
   .text_area ul li {
@@ -216,7 +221,7 @@
     letter-spacing: 0.2rem;
   }
   .card {
-    background: #1c1c1c;
+    background: #111111dc;
     padding: 1.25rem;
     border-radius: 0.15rem;
     transition: 0.5s;
@@ -233,6 +238,7 @@
     font-size: 5rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    transition: 0.3s;
   }
 }
 @media (max-width: 950px) {
@@ -240,7 +246,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-image: url("../images/security-cameras.jpg");
     background-position: center;
@@ -254,13 +260,14 @@
     justify-content: center;
     flex-direction: column;
     color: white;
-    background: linear-gradient(to bottom, #070707, #141414d0, #080808ff);
+    background: linear-gradient(to bottom, #070707, #14141475, #080808ff);
     width: 100%;
-    height: 100vh;
+    height: 90vh;
   }
   .text_area h2 {
     color: white;
-    font-family: "Roboto", serif;
+    font-family: "Jost", sans-serif;
+
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.45rem;
@@ -296,7 +303,7 @@
     letter-spacing: 0.2rem;
   }
   .card {
-    background: #1c1c1c;
+    background: #111111dc;
     padding: 1.25rem;
     border-radius: 0.15rem;
     transition: 0.5s;
@@ -304,14 +311,16 @@
     height: 9.5rem;
   }
   .card:hover {
-    transform: scale(1.1);
+    transform: scale(1);
     cursor: pointer;
-    color: black;
-    background: #e8e8e8;
+    color: white;
+    background: #111111dc;
+    box-shadow: 0px 0px 0px 0px black;
   }
   .icons {
     font-size: 5rem;
     padding-bottom: 2rem;
+    transition: 0.3s;
     padding-top: 2rem;
   }
 }
