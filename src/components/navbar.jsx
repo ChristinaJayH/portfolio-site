@@ -25,16 +25,16 @@ const Navbar = () => {
   return (
     <div className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="title_Area">
-             CyberSpecOps
+        PrimeSecOps
         </div>
         <div className="hammenu" onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? <FaTimes  className='hamburger'/> : <GiHamburgerMenu className='exit'/>}
       </div>
       <div className="navbar_Links">
         <ul className={menuOpen ? "open" : ""}>
-          <li><a><NavLink to='/home' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>Home</NavLink></a></li>
-          <li><a><NavLink to='/info-page' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>About</NavLink></a></li>
-          <li><a><NavLink to='/services' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>Services</NavLink></a></li>
+          <li><NavLink to='/home' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>Home</NavLink></li>
+          <li><NavLink to='/info-page' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>About</NavLink></li>
+          <li><NavLink to='/services' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>Services</NavLink></li>
         </ul>
       </div>
     </div>
