@@ -1,8 +1,0 @@
-@font-face {
-  font-family: "Futura";
-  src: url("./fonts/Futura.woff2") format("woff2"),
-    url("./fonts/Futura.woff") format("woff"),
-    url("./fonts/Futura.ttf") format("truetype");
-  font-weight: normal; /* or bold */
-  font-style: normal; /* or italic */
-}
