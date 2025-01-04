@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.camera {
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+.mobile_navabr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.navbar_title {
+  padding-left: 1rem;
+}
+.top_section {
+  z-index: 100;
+  gap: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  height: 4rem;
+  position: fixed;
+  top: 0;
+}
+.top_section h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+}
+.toggle_button {
+  padding-right: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-top: 0.25rem;
+}
+.toggle_button .mark {
+  color: red;
+}
+.open .menu {
+  transform: translateY(0);
+}
+.not.menu {
+  transform: translateY(-100%);
+}
+.menu {
+  top: 0;
+  position: fixed;
+  transition: 0.6s;
+  background: #0c0c0c;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+.menu ul li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  color: #cfcfcf;
+}
+.menu ul li:hover {
+  color: white;
+  cursor: pointer;
+}
+@media only screen and (max-width: 502px) {
+  .top_section h1 {
+    display: none;
+  }
+  .camera {
+    padding-left: 1.5rem;
+    font-size: 2.45rem;
+  }
+}
