@@ -1,0 +1,132 @@
+.selection_container {
+  margin: 0;
+  padding: 0;
+  transition: 0.45s;
+  height: 150vh;
+  width: 100%;
+  background: linear-gradient(#ffffff, #f0f0f0, #ffffff, #ffffff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.card_context {
+  box-shadow: 0.2rem 0.75rem 2rem rgba(0, 0, 0, 0.176);
+  background: #ffffff;
+  border: 0.025rem solid rgba(17, 24, 39, 0.1);
+  padding: 1rem;
+  width: 100vw;
+  height: 45rem;
+  border-radius: 1rem;
+  gap: 1rem;
+}
+.other_content h1 {
+  margin-left: 1rem;
+  color: black;
+  font-family: ui-sans-serif, system-ui;
+  font-size: 3.25rem;
+  font-weight: 700;
+}
+.other_content p span {
+  margin-left: 0.25rem;
+  color: #000000ff;
+  letter-spacing: 0.001rem;
+  font-family: ui-sans-serif, system-ui;
+  font-size: 1.25rem;
+  font-weight: 550;
+}
+.other_content p {
+  max-width: 43rem;
+  margin-left: 1rem;
+  font-family: ui-sans-serif, system-ui;
+  font-size: 1.05rem;
+  font-weight: 450;
+  line-height: 2rem;
+}
+.card_context {
+  max-width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.starter_area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem;
+  width: 100%;
+}
+.starter_area h3 {
+  font-family: ui-sans-serif, system-ui;
+  margin-left: 1rem;
+  color: #000000ff;
+  letter-spacing: 0.001rem;
+  font-family: ui-sans-serif, system-ui;
+  font-size: 1.35rem;
+  font-weight: 550;
+}
+.starter_area button {
+  font-family: ui-sans-serif, system-ui;
+  font-weight: 500;
+  border: none;
+  font-size: 0.85rem;
+  padding: 0.8rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-right: 1.2rem;
+  border-radius: 0.45rem;
+  background: #0c0e0e;
+  color: white;
+}
+.text_area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.text_area p {
+  color: black;
+  padding-left: 1rem;
+  font-family: ui-sans-serif, system-ui;
+  font-size: 1.05rem;
+  font-weight: 450;
+  line-height: 2rem;
+  letter-spacing: 0.025rem;
+}
+.text_area .divider {
+  margin-top: 1rem;
+  height: 0.12rem;
+  border-radius: infinite;
+  width: 90%;
+  background: #cdcdcd;
+}
+.applience_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.card_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_text p {
+  max-width: 43rem;
+  margin-left: 1rem;
+  font-family: ui-sans-serif, system-ui;
+  font-size: 0.9rem;
+  font-weight: 450;
+  line-height: 1.5rem;
+  margin-right: 1rem;
+}
+.span {
+  font-size: 6rem;
+  margin-left: 1rem;
+}
+.card_text p span {
+  font-weight: 600;
+}

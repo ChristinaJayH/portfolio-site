@@ -1,0 +1,139 @@
+.footer_container {
+  background: black;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  font-family: "Poppins", serif;
+  gap: 0rem;
+}
+.footer_container h1 {
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  font-size: 2.25rem;
+  line-height: 3rem;
+}
+.footer_container p {
+  padding: 0.5rem;
+  color: white;
+  font-family: "Poppins", serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.07rem;
+  padding-right: 1rem;
+}
+.about_section {
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height: 20rem;
+  gap: 0rem;
+}
+.links_section {
+  padding: 1rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.links_section h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Poppins", serif;
+}
+.links_section ul {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.links_section ul li {
+  color: white;
+  font-family: "Poppins", serif;
+  font-size: 0.85rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+.services_section {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.services_section h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Poppins", serif;
+}
+.services_section ul {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.services_section ul li {
+  color: white;
+  font-family: "Poppins", serif;
+  font-size: 0.85rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+.services_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer_Links {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.company_section {
+  overflow: hidden;
+}
+.company_section {
+  margin-top: -4rem;
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Poppins", serif;
+}
+.company_title_section h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.company_section ul {
+  margin-top: 1rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.company_section ul li {
+  font-weight: 300;
+}

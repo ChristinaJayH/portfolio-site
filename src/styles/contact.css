@@ -1,5 +1,5 @@
 .items_container {
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@
   padding: 0.8rem;
   font-weight: 500;
   font-size: 0.85rem;
-  border-radius: 10rem;
+  border-radius: 0.75rem;
   margin-top: 0.15rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;

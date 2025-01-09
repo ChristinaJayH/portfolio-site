@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.about_container {
+  width: 100%;
+  height: 100vh;
+  background: #080a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: ui-sans-serif, system-ui;
+  padding: 1rem;
+}
+.about_container h1 {
+  color: white;
+  font-family: ui-sans-serif, system-ui;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 0.025rem;
+}
+.about_container p {
+  color: white;
+  font-family: ui-sans-serif, system-ui;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.075rem;
+}
+.about_container p span {
+  color: #ffffff9f;
+  font-family: ui-sans-serif, system-ui;
+  font-weight: 200;
+}
+
+.text {
+  margin-top: -10rem;
+  margin-right: 2rem;
+}
