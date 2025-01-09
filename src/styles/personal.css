@@ -38,3 +38,7 @@
   border-radius: 0.85rem;
   overflow: hidden;
 }
+.personal_container img {
+  width: 10rem;
+  height: 10rem;
+}

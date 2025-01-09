@@ -6,13 +6,12 @@ const selections = () => {
   return (
       <div className='selection_container'>
         <div className='other_content'>
-          <p><span>More Information</span></p>
-          <h1>See what it's all About!</h1>
+          <h1>We Support Your Journey</h1>
           <p>PrimeSecOps simplifies cybersecurity, helping individuals master essential IT skills to advance their careers. Explore our resources and start your journey today!</p>
         </div>
         <div className='card_context'>
           <div className='starter_area'>
-            <h3>You Ready?</h3>
+            <h3>Are You Ready?</h3>
             <button>Get Started</button>
           </div>
           <div className='text_area'>

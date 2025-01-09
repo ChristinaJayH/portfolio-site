@@ -4,8 +4,8 @@ import { MdPhoneMissed } from "react-icons/md";
 const primesecops = () => {
   return (
     <div className='prime_container'>
-        <h1>What is PrimeSecOps?</h1>
-        <p>PrimeSpecOps helps individuals build successful cybersecurity careers by offering tailored guidance, resources, and support for certifications, job placement, and career growth.</p>
+        <h1>Who Are We</h1>
+        <p>PrimeSecOps helps individuals build successful cybersecurity careers by offering tailored guidance, resources, and support for certifications, job placement, and career growth.</p>
         <div className='component_containers'>
           <div className='cards'>
             <MdMiscellaneousServices className='card_icon'/>
