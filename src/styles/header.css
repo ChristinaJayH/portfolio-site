@@ -30,8 +30,8 @@
   gap: 0.5rem;
 }
 .header h1 span {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-family: ui-sans-serif, system-ui;
+  font-weight: 700;
   color: transparent;
   background: linear-gradient(120deg, #ffffff, #ffffff, #ffffff, #868686);
   -webkit-background-clip: text;
@@ -39,23 +39,23 @@
   letter-spacing: 0.045em;
   text-align: center;
   font-size: 2.12rem;
-  line-height: 3.5rem;
+  line-height: 3.25rem;
   padding: 0.45rem;
 }
 .header h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: ui-sans-serif, system-ui;
   font-weight: 600;
   color: white;
   letter-spacing: 0.045em;
   text-align: center;
   font-size: 2.12rem;
-  line-height: 3.5rem;
+  line-height: 3.25rem;
   padding: 0.45rem;
 }
 .header p {
   font-size: 1.05rem;
   color: #bdbdbd;
-  font-family: "Poppins", sans-serif;
+  font-family: ui-sans-serif, system-ui;
   font-weight: 400;
   letter-spacing: 0.035em;
   text-align: center;
@@ -67,7 +67,7 @@
   color: black;
   background: white;
   border: none;
-  font-family: "Roboto", sans-serif;
+  font-family: ui-sans-serif, system-ui;
   padding: 0.75rem;
   font-weight: 500;
   font-size: 1.05rem;

@@ -4,7 +4,7 @@
 }
 .camera {
   font-size: 1.5rem;
-  color: #fff;
+  color: #6b6b6b;
   cursor: pointer;
 }
 .top_section.scrolled {
@@ -46,6 +46,7 @@
   font-size: 2rem;
   cursor: pointer;
   margin-top: 0.25rem;
+  color: #6b6b6b;
 }
 .toggle_button .mark {
   color: white;

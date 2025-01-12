@@ -32,13 +32,14 @@
   font-weight: 700;
 }
 .other_content p {
+  line-height: 2rem;
   max-width: 42rem;
   margin-left: 1rem;
   color: #000000ff;
   letter-spacing: 0.001rem;
   font-family: ui-sans-serif, system-ui;
   font-size: 1.05rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .card_context {
