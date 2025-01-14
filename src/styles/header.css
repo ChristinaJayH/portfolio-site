@@ -1,94 +1,64 @@
 * {
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 .header {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
   color: white;
   width: 100%;
-  height: 100vh;
+  height: 100vh; /* Full viewport height for vertical centering */
   z-index: 10;
-  gap: 1rem;
-  background: linear-gradient(to bottom, #00000000, rgba(0, 0, 0, 0.256), black),
-    url("../images/header-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  gap: 2rem; /* Spacing between child elements */
+  background: linear-gradient(#0e1418, #0c0c0c, black);
+  text-align: center; /* Ensures text alignment for children */
 }
+
 .icon {
   font-size: 1.5rem;
   color: black;
   cursor: pointer;
   transition: 0.4s;
 }
+
 .navbar_title {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
+  align-items: center; /* Horizontal alignment within navbar */
+  justify-content: center; /* Centers navbar items */
 }
-.header h1 span {
-  font-family: ui-sans-serif, system-ui;
-  font-weight: 700;
-  color: transparent;
-  background: linear-gradient(120deg, #ffffff, #ffffff, #ffffff, #868686);
-  -webkit-background-clip: text;
-  background-clip: text;
-  letter-spacing: 0.045em;
-  text-align: center;
-  font-size: 2.12rem;
-  line-height: 3.25rem;
-  padding: 0.45rem;
-}
+
 .header h1 {
-  font-family: ui-sans-serif, system-ui;
-  font-weight: 600;
-  color: white;
-  letter-spacing: 0.045em;
-  text-align: center;
-  font-size: 2.12rem;
-  line-height: 3.25rem;
-  padding: 0.45rem;
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6, #7c8d92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 4rem;
+  letter-spacing: 0.05rem;
+  margin: 0.5rem;
 }
+
 .header p {
-  font-size: 1.05rem;
-  color: #bdbdbd;
-  font-family: ui-sans-serif, system-ui;
+  padding: 1rem;
+  color: #e6e6e6;
+  font-size: 1.35rem;
   font-weight: 400;
   letter-spacing: 0.035em;
-  text-align: center;
-  line-height: 1.85rem;
-  padding: 1rem;
+  line-height: 2.25rem;
 }
+
 .header button {
-  transition: 0.4s;
-  color: black;
-  background: white;
+  background: linear-gradient(to right, #ffffff, #e7ecef);
   border: none;
-  font-family: ui-sans-serif, system-ui;
-  padding: 0.75rem;
-  font-weight: 500;
-  font-size: 1.05rem;
-  border-radius: 0.65rem;
-  margin-top: 0.15rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.25rem;
-}
-.header button:hover {
-  background: #1d1d1d;
-  color: white;
+  border-radius: 100rem;
+  color: black;
+  padding: 0.65rem 1rem;
+  font-size: 1.25rem;
   cursor: pointer;
-}
-.header button:hover .icon {
-  color: white;
-}
-.header img {
-  width: 20rem;
-  height: 18rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

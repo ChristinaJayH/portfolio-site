@@ -12,26 +12,22 @@
   justify-content: center;
   flex-direction: column;
   color: white;
-  font-family: ui-sans-serif, system-ui;
   padding: 1rem;
 }
 .about_container h1 {
   color: white;
-  font-family: ui-sans-serif, system-ui;
   font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: 0.025rem;
 }
 .about_container p {
   color: white;
-  font-family: ui-sans-serif, system-ui;
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.075rem;
 }
 .about_container p span {
   color: #ffffff9f;
-  font-family: ui-sans-serif, system-ui;
   font-weight: 200;
 }
 

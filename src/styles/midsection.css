@@ -2,11 +2,12 @@
   height: 90vh;
   width: 100%;
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: center;
   background: #191b1b;
   flex-direction: column;
-  gap: 4rem;
+  gap: 1rem;
+  overflow: hidden;
 }
 .midsection_container h1 {
   text-transform: uppercase;
@@ -16,22 +17,30 @@
   letter-spacing: 0.15rem;
   margin-bottom: 1rem;
   text-align: left;
-  font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 .list-icons {
   color: white;
-  font-size: 3rem;
+  overflow: hidden;
+  font-size: 2rem;
 }
 .midsection_container p {
   line-height: 1.45rem;
   font-size: 0.85rem;
   color: white;
-  font-family: "Poppins", sans-serif;
   font-weight: 300;
   letter-spacing: 0.06rem;
-  text-align: left;
+  text-align: center;
+  overflow: hidden;
 }
 .card_container {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #111111;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

@@ -1,15 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: ui-sans-serif, system-ui;
 }
 .camera {
   font-size: 1.5rem;
-  color: #6b6b6b;
+  color: #ffffff;
   cursor: pointer;
 }
 .top_section.scrolled {
   background-color: #0c0c0c;
-  height: 3rem;
+  box-shadow: 0.25rem 0.05rem 0.05rem rgba(41, 41, 41, 0.149);
 }
 .mobile_navabr {
   display: flex;
@@ -19,6 +20,7 @@
 }
 .navbar_title {
   padding-left: 1rem;
+  gap: 1rem;
 }
 .top_section {
   transition: 0.6s;
@@ -35,7 +37,6 @@
   top: 0;
 }
 .top_section h1 {
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
   letter-spacing: 0.025rem;
@@ -46,7 +47,7 @@
   font-size: 2rem;
   cursor: pointer;
   margin-top: 0.25rem;
-  color: #6b6b6b;
+  color: #ffffff;
 }
 .toggle_button .mark {
   color: white;
@@ -78,7 +79,6 @@
 }
 .menu ul li a {
   list-style: none;
-  font-family: "Poppins", sans-serif;
   color: #474747;
   text-decoration: none;
 }
@@ -95,6 +95,6 @@
   }
   .camera {
     padding-left: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }

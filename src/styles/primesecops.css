@@ -13,7 +13,6 @@
   margin-left: 1rem;
   padding-right: 1rem;
   color: black;
-  font-family: ui-sans-serif, system-ui;
   font-size: 3rem;
   font-weight: 700;
 }
@@ -21,7 +20,6 @@
 .prime_container p {
   margin-right: 2rem;
   margin-left: 1rem;
-  font-family: ui-sans-serif, system-ui;
   font-size: 1.2rem;
   font-weight: 450;
   line-height: 2rem;
@@ -66,7 +64,6 @@
 }
 .cards p span {
   font-size: 1.25rem;
-  font-family: ui-sans-serif, system-ui;
   font-weight: 600;
 }
 .cards p {

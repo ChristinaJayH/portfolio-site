@@ -11,7 +11,6 @@
 .title_h1 h1 {
   color: white;
   text-align: center;
-  font-family: ui-sans-serif, system-ui;
   font-weight: 700;
   letter-spacing: 0.05rem;
   font-size: 1.75rem;
@@ -20,7 +19,6 @@
   overflow: hidden;
   transition: 0.34s;
   color: white;
-  font-family: ui-sans-serif, system-ui;
   text-align: center;
   padding: 0.45rem;
   font-size: 1.1rem;
@@ -30,7 +28,6 @@
 .button button {
   border: none;
   padding: 0.75rem;
-  font-family: ui-sans-serif, system-ui;
   font-weight: 550;
   background: #ffffff;
   width: 14rem;
