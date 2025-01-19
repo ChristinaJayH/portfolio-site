@@ -20,17 +20,15 @@
   font-size: 3rem;
   line-height: 4rem;
   letter-spacing: 0.05rem;
-  margin-left: 1rem;
-  overflow: hidden;
+  margin: 1rem;
 }
 .text_container p {
-  padding: 1rem;
   color: #e6e6e6;
   font-size: 1.35rem;
   font-weight: 400;
   letter-spacing: 0.035em;
   line-height: 2rem;
-  padding: 1rem;
+  margin: 1rem;
   text-align: left;
   overflow: hidden;
 }
@@ -50,7 +48,6 @@
   border-radius: 0.5rem;
   width: 90%;
   max-width: 36rem;
-  min-height: 40%;
   height: 20rem;
   display: flex;
   align-items: center;
