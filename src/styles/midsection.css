@@ -1,0 +1,47 @@
+.midsection_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #000000, #191b1b);
+  flex-direction: column;
+  gap: 0.2rem;
+  overflow: hidden;
+}
+.midsection_container h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 4rem;
+  letter-spacing: 0.1rem;
+}
+.list-icons {
+  color: white;
+  overflow: hidden;
+  font-size: 2.5rem;
+}
+.ui-font {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+.midsection_container p {
+  color: #e6e6e6;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  letter-spacing: 0.0675rem;
+  text-align: center;
+}
+.card_container {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #181717;
+  padding: 0.75rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0rem;
+}

@@ -1,18 +1,16 @@
+import '../styles/navbar.css';
 import { NavLink } from 'react-router-dom'
-import '../Stylesheets/navbar.css'
+import { GiCctvCamera } from "react-icons/gi";
 import { useState, useEffect } from 'react';
-import { RxHamburgerMenu } from "react-icons/rx";
+import { IoIosMenu } from "react-icons/io";
+import { HiMiniXMark } from "react-icons/hi2";
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 0);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -20,20 +18,32 @@ const Navbar = () => {
   }, []);
 
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
-    <div className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-        <div className="title_Area">
-             CyberSpecOps
+    <div className='narbar'>
+      <div className='mobile_navabr'>
+        <div className={`top_section ${scrolled ? 'scrolled' : ''}`}>
+          <div className='navbar_title'>
+          <GiCctvCamera className='camera'/>
+              <h1>PrimeSecOps</h1>
+              
+          </div>
+          <div className='toggle_button' onClick={toggleMenu}>
+          {isMenuOpen ? <HiMiniXMark className='mark'/> : <IoIosMenu/>}
+          </div>
         </div>
-        <div className={`hammenu ${menuOpen ? 'clicked' : ''}`}>
-          <RxHamburgerMenu  onClick={() => setMenuOpen(!menuOpen)}/>
+        <div className={`menu ${isMenuOpen ? 'open' : 'not'}`}>
+          <ul>
+            <li><NavLink to='/home' className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink></li>
+            <li><NavLink to='/about' className={({ isActive }) => isActive ? "active" : ""}>About</NavLink></li>
+            <li><NavLink to='/ourteam' className={({ isActive }) => isActive ? "active" : ""}>Our Team</NavLink></li>
+            <li><NavLink to='/contact' className={({ isActive }) => isActive ? "active" : ""}>Contact</NavLink></li>
+          </ul>
         </div>
-      <div className="navbar_Links">
-        <ul className={menuOpen ? "" : "open"}>
-          <li><a><NavLink to='/home' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>Home</NavLink></a></li>
-          <li><a><NavLink to='/info-page' className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>InfoPage</NavLink></a></li>
-        </ul>
       </div>
     </div>
   )
